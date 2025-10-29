@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="layout :: layout">
+<div th:fragment="content">
+  <h2>Login</h2>
+  <div th:if="${error}"><p th:text="${error}"></p></div>
+  <form action="#" th:action="@{/login}" method="post">
+    <label>Email: <input type="email" name="email" required/></label><br/>
+    <label>Senha: <input type="password" name="senha" required/></label><br/>
+    <button type="submit">Entrar</button>
+  </form>
+</div>
+</html>
