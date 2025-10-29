@@ -1,0 +1,372 @@
+/* ========================================
+   DICARTA LIVRARIA - Estilos Personalizados
+   Fundo: #fff5e9
+   ======================================== */
+
+/* ----------------------------------------
+   Fundo Geral
+   ---------------------------------------- */
+body {
+    background-color: #fff5e9 !important;
+    color: #333;
+}
+
+/* ----------------------------------------
+   Navegação
+   ---------------------------------------- */
+.navbar {
+    background-color: #fff5e9 !important;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
+    color: #333 !important;
+}
+
+.navbar-brand img {
+    background: transparent !important;
+}
+
+.navbar .nav-link {
+    color: #333 !important;
+}
+
+.navbar .nav-link:hover {
+    color: #333333 !important;
+}
+
+.navbar .dropdown-menu {
+    background-color: #fff;
+}
+
+.navbar .dropdown-item {
+    color: #333;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* ----------------------------------------
+   Rodapé
+   ---------------------------------------- */
+footer {
+    background-color: #fff5e9 !important;
+    color: #333 !important;
+    margin-top: auto;
+    border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+/* ----------------------------------------
+   Cards
+   ---------------------------------------- */
+.card {
+    background-color: #fff;
+    border: 1px solid #e0d5c7;
+    border-radius: 10px;
+    color: #333;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    color: #333;
+    border-bottom: 1px solid #e0d5c7;
+}
+
+/* ----------------------------------------
+   Efeitos de Hover em Cards de Livros
+   ---------------------------------------- */
+.book-card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    will-change: transform, box-shadow;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* ----------------------------------------
+   Seção Hero
+   ---------------------------------------- */
+.hero-section {
+    background-color: transparent;
+    border-radius: 15px;
+    padding: clamp(2rem, 5vw, 3rem) clamp(1rem, 3vw, 2rem);
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.hero-section img {
+    background: transparent !important;
+}
+
+/* ----------------------------------------
+   Botões
+   ---------------------------------------- */
+.btn {
+    transition: all 0.2s ease-in-out;
+    will-change: transform;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+.btn-primary {
+    background-color: #333333;
+    border-color: #333333;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #a64e4e;
+    border-color: #a64e4e;
+}
+
+.btn-warning {
+    background-color: #333333;
+    border-color: #333333;
+    color: #fff;
+}
+
+.btn-warning:hover {
+    background-color: #a64e4e;
+    border-color: #a64e4e;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* ----------------------------------------
+   Formulários
+   ---------------------------------------- */
+.form-control {
+    background-color: #fff;
+    border: 1px solid #e0d5c7;
+    color: #333;
+}
+
+.form-control:focus {
+    border-color: #333333;
+    box-shadow: 0 0 0 0.2rem rgb(51, 51, 51, 0.25);
+    background-color: #fff;
+    color: #333;
+}
+
+.form-label {
+    color: #333;
+    font-weight: 500;
+}
+
+/* ----------------------------------------
+   Tabelas
+   ---------------------------------------- */
+.table {
+    background-color: #fff;
+    color: #333;
+}
+
+.table thead {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-responsive {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* ----------------------------------------
+   Alertas
+   ---------------------------------------- */
+.alert {
+    border-radius: 8px;
+    border: 1px solid;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+/* ----------------------------------------
+   Modais
+   ---------------------------------------- */
+.modal-content {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #e0d5c7;
+    color: #333;
+}
+
+.modal-header {
+    background-color: #f8f9fa;
+    color: #333;
+    border-bottom: 1px solid #e0d5c7;
+    border-radius: 10px 10px 0 0;
+}
+
+.modal-footer {
+    border-top: 1px solid #e0d5c7;
+}
+
+/* ----------------------------------------
+   Badges
+   ---------------------------------------- */
+.badge {
+    font-size: 0.75em;
+    padding: 0.5em 0.75em;
+}
+
+.badge.bg-danger {
+    background-color: #dc3545 !important;
+}
+
+/* ----------------------------------------
+   Badge do Carrinho (com animação)
+   ---------------------------------------- */
+.navbar .badge {
+    animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+/* ----------------------------------------
+   Cards de Estatísticas
+   ---------------------------------------- */
+.stats-card {
+    background: #fff;
+    border: 1px solid #e0d5c7;
+    border-radius: 10px;
+}
+
+/* ----------------------------------------
+   Text Colors Override
+   ---------------------------------------- */
+.text-muted {
+    color: #6c757d !important;
+}
+
+.text-primary {
+    color: #333333 !important;
+}
+
+/* ----------------------------------------
+   Border Colors
+   ---------------------------------------- */
+.border-primary {
+    border-color: #333333 !important;
+}
+
+.border-warning {
+    border-color: #333333 !important;
+}
+
+/* ----------------------------------------
+   Containers
+   ---------------------------------------- */
+.container {
+    background-color: transparent !important;
+}
+
+/* ----------------------------------------
+   Responsividade
+   ---------------------------------------- */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 2rem 1rem;
+    }
+
+    .card-body {
+        padding: 1rem;
+    }
+
+    .btn-lg {
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .hero-section {
+        padding: 2.5rem 1.5rem;
+    }
+}
+
+/* ----------------------------------------
+   Estilos de Impressão
+   ---------------------------------------- */
+@media print {
+    .navbar, .btn, .modal, footer {
+        display: none !important;
+    }
+
+    .container {
+        max-width: 100% !important;
+    }
+}
+
+/* ----------------------------------------
+   Suporte a Movimento Reduzido
+   ---------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+    .book-card,
+    .btn,
+    .badge {
+        animation: none !important;
+        transition: none !important;
+    }
+
+    .book-card:hover {
+        transform: none;
+    }
+}
