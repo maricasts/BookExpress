@@ -58,7 +58,7 @@
 
 | 📄 Documento | 📝 Descrição | 📅 Data |
 |--------------|--------------|---------|
-| [Reunião Geral](./https://github.com/maricasts/BookExpress/blob/main/docs/reuniao/Reuni%C3%A3o.pdf) | Ata da segunda reunião geral da equipe | Outubro 16 |
+| [Reunião Geral](https://www.canva.com/design/DAG3ugXZDJ8/AEgq0P9p6028EfNzMGpRuA/view?utm_content=DAG3ugXZDJ8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hdc68cbc5ad) | Ata da segunda reunião geral da equipe | Outubro 16 |
 | [Apresentação](https://www.canva.com/design/DAGx0wqJq2Q/C_HJEMBcoA_PQKiiPTOdfQ/edit?utm_content=DAGx0wqJq2Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) | Apresentação de slides da dupla | Outubro 31 |
 
 ---
