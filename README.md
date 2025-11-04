@@ -36,10 +36,10 @@
 > **ATENÇÃO:** Esse projeto foi desenvolvido para fins estudantis relacionados ao curso de Desenvolvimento de Sistemas para a matéria de Modelagem de Padrão de Projetos. A proposta era criar um sistema utilizando da linguagem Java e dos padrões apresentados durantes as aulas.
 
 # 📚 SUMÁRIO
-- [Técnologias](#técnologias-utilizadas-para-a-criação-do-sistema)
-- [Documentação](#documentação-da-equipe)
-- [Ferramentas](#ferramentas-usadas)
-- [Como usar](#utlização)
+- [Técnologias](https://github.com/maricasts/BookExpress/blob/main/README.md#-t%C3%A9cnologias-utilizadas-para-a-cria%C3%A7%C3%A3o-do-sistema)
+- [Documentação](https://github.com/maricasts/BookExpress/blob/main/README.md#-documenta%C3%A7%C3%A3o-da-equipe)
+- [Ferramentas](https://github.com/maricasts/BookExpress/blob/main/README.md#-ferramentas-usadas)
+- [Como usar](https://github.com/maricasts/BookExpress/blob/main/README.md#%EF%B8%8F-utliza%C3%A7%C3%A3o)
 
 ---
 
